@@ -1,0 +1,293 @@
+/* Start Golbal */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #4a4a4a;
+  }
+  
+  a {
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .container {
+    max-width: 76%;
+    margin: auto;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  
+  section {
+    padding: 70px;
+  }
+  
+  .title h2 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+  
+  .title h2 span {
+    color: #9a1750;
+    border-bottom: 1px solid #9a1750;
+  }
+  
+  /* End Golbal */
+  
+  /* Start Main-Header */
+  .header {
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("../images/typing-on-apple-computer.jpg") no-repeat center center;
+      background-size: cover;
+  }
+  
+  .header__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header__menu ul li {
+    display: inline-block;
+    padding: 30px 10px;
+  }
+  
+  .header__menu ul li a {
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .header__menu ul li a:hover, .header__menu ul li a.home {
+    color: #9a1750;
+    border-bottom: 1px solid #9a1750;
+  }
+  
+ .header__mid-content {
+    position: absolute;
+    top: 50%;
+    left: 31%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 3px;
+  }
+  
+  h1 {
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  h1 span {
+    color: #9a1750;
+  }
+  
+  .header__mid-content p {
+    display: inline-block;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    padding: 15px;
+    margin: 25px 0 55px 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  .header__mid-content a {
+    display: block;
+    width: 125px;
+    padding: 12px 10px;
+    border-radius: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid #9a1750;
+    color: #9a1750;
+    font-weight: 500;
+  }
+  
+  .header__mid-content a:hover {
+    background-color: #9a1750;
+    color: #fff;
+  }
+  /* End Main-Header */
+  
+  /* Start About Section  */
+  .about__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .about__left-sec {
+    width: 45%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .about__left-imgs--back{
+    background-color: #9a1750;
+  }
+  
+  .about__left-imgs {
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+  }
+  
+  .about__left-imgs--persImg {
+    background: url("../images/persona-img.jpg") no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 5px;
+    left: 43px;
+  }
+  
+  .about__right-sec {
+    width: 50%;
+  }
+  
+  .about__p{
+    line-height: 30px;
+  }
+  
+  .about__right-sec h3 {
+    font-weight: 700;
+    margin-top: 20px;
+  }
+  
+  .about__right-sec span {
+    font-weight: 700;
+    color: #9a1750;
+    font-size: 14px;
+  }
+  /* End About Section */
+  
+  /* Start Services Section */
+  #services {
+    background-color: #f2f2f2;
+  }
+  
+  .services__all-services {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .services__ser {
+      width: 30%;
+      height: 420px;
+      text-align: center;
+      box-shadow: 1px 1px 50px 1px #e6e6e6;
+  }
+
+  .services__h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: auto;
+    color: #fff;
+    background-color: #4a4a4a;
+    padding: 10px 0;
+  }
+  
+  .services__details {
+    line-height: 24px;
+    padding: 25px 15px 5px 15px;
+    text-align: justify;
+  }
+  
+  /* End Services Section */
+
+  /* Start Skills Section */
+  .skills__all {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .skills__details {
+      width: 45%;
+      line-height: 30px;
+  }
+
+  .skills__progress {
+      width: 45%;
+  }
+
+  .skills__icon {
+      display: grid;
+      grid-template-columns: 0.6fr 1fr 2fr;
+      align-items: center;
+      margin-bottom: 20px;
+  }
+
+  .skills__icon progress {
+      width: 100%;
+  }
+  /* End Skills Section */
+  
+  /* Start Contact Section */
+  #contact {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/contact-phone-notepad.jpg") no-repeat center center;
+    background-size: cover;
+  }
+
+  .contact__details {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .contact__left {
+      width: 45%;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+      padding: 20px;
+      border: 2px solid #9a1750;
+  }
+
+  .contact__details h3 {
+      color: #fff;
+      font-weight: 500;
+      font-size: 20px;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+  }
+
+  .contact__left  p {
+      color: #fff;
+      letter-spacing: 2px;
+      line-height: 24px;
+  }
+
+  .contact__social {
+      width: 45%;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+      padding: 20px;
+      border: 2px solid #9a1750;
+  }
+
+
+  .contact__social i {
+      font-size: 20px;
+      border-radius: 50%;
+      background-color: #9a1750;
+      color: #fff;
+      padding: 10px;
+      margin-right: 20px;
+      cursor: pointer;
+  }
+
+  /* End Contact Section */
+
+  /* Start Footer */
+  footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #4a4a4a;
+  }
+   footer p {
+       color: #fff;
+       font-size: 14px;
+   }
+  /* Start Footer */
