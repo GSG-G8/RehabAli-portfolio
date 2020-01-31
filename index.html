@@ -5,23 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rehab portfolio</title>
     <!-- external css style sheet link Style -->
+    <script src="https://kit.fontawesome.com/31b25a48cc.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <!-- Start Main-Header -->
-    <header>
+    <header class="header">
       <div class="container">
         <!-- Start Navbar  -->
-        <nav class="navbar">
+        <nav class="header__navbar">
           <!-- Start Logo -->
-          <div class="logo">
+          <div class="header__logo">
             <a href="index.html">
               <img src="images/b0807ca4-aec6-405f-bbfb-44630b002016_200x200 (1).png" alt="logo" width="160px" height="65px">
             </a>
           </div>
           <!-- End Logo -->
           <!-- Start Menu  -->
-          <div class="menu">
+          <div class="header__menu">
             <ul>
               <li><a href="index.html" class="home">Home</a></li>
               <li><a href="#about">About</a></li>
@@ -35,7 +37,7 @@
         <!-- End Navbar  -->
         <!-- Start Mid-Content  -->
         <div class="container">
-          <div class="mid-content">
+          <div class="header__mid-content">
             <h1>Hey there!<br>I'm Rehab Ali<br>Independent <span>UI/UX Designer</span></h1>
             <p>I create web and graphic design</p>
             <a href="#contact">Hire Me</a>
@@ -54,13 +56,13 @@
           <div class="title">
             <h2><span>About</span> Me</h2>
           </div>
-          <div class="details">
-            <div class="left-sec">
-              <div class="back"></div>
-              <div class="my-img"></div>
+          <div class="about__details">
+            <div class="about__left-sec">
+              <div class="about__left-imgs about__left-imgs--back"></div>
+              <div class="about__left-imgs about__left-imgs--persImg"></div>
             </div>
-            <div class="right-sec">
-              <p>Hi, My name is Rehab Ali Alshawaf. I staudied Computer Engineering at Islamic Ynvirsity of Gaza. I'm a UI/UX designer.
+            <div class="about__right-sec">
+              <p class="about__p">Hi, My name is Rehab Ali Alshawaf. I staudied Computer Engineering at Islamic Ynvirsity of Gaza. I'm a UI/UX designer.
               I've been designed for about 3 years now. I love designing and exploring creative things which makes happy.</p>
               <h3>“Practice safe design: Use a concept.”</h3>
               <span>Petrula Vrontikis</span>
@@ -75,36 +77,91 @@
           <div class="title">
             <h2>My <span>Services</span></h2>
           </div>
-          <div class="service">
-            <div class="img-sec img-sec1"></div>
-            <div class="back back1"></div>
-            <div class="details details1">
-              <h3>UI/UX</h3>
-              <p>Responsive Web Design, tailor-made for your business needs, with a focus on the visual perception of your brand and website functionality. An unrivaled User Interface (UI) and User Experience (UX) Design.</p>
+
+          <div class="services__all-services">
+              <div class="services__ser">
+                  <h3 class="services__h3">UI/UX</h3>
+                  <img class="services__icon" src="images/iconfinder_Web_Design_1016081.png" alt="UI/UX" width="100" height="100">
+                  <p class="services__details">Responsive Web Design, tailor-made for your business needs, with a focus on the visual perception of your brand and website functionality. An unrivaled User Interface (UI) and User Experience (UX) Design.</p>
+                </div>
+                <div class="services__ser">
+                    <h3 class="services__h3">Independent testing</h3>
+                    <img class="services__icon" src="images/testingservices-01.svg" alt="testing" width="100" height="100">
+                    <p class="services__details">Depending on the specifics of your project, I can run particular types of testing, be it functional, performance, security or any other sofware testing type.</p>
+                </div>
+                <div class="services__ser">
+                    <h3 class="services__h3">Front-End Development</h3>
+                    <img class="services__icon" src="images/iconfinder_Web_Development_1016080.png" alt="web-development" width="100" height="100">
+                    <p class="services__details">I have an experience in building web front-ends that deliver innovative, responsive, and human-centric solutions for business in all verticals. My interfaces are designed with utmost attention to look great on both desktop screens and mobile devices.</p>
+                </div>
             </div>
-          </div>
-          <div class="service">
-            <div class="back back2"></div>
-            <div class="details details2">
-              <h3>Front-End Development</h3>
-              <p>I have over 3 years of experience in building complex web front-ends that deliver innovative, responsive, and human-centric solutions for business in all verticals. Our interfaces are designed with utmost attention to look great on both desktop screens and mobile devices.</p>
-            </div>
-            <div class="img-sec img-sec2"></div>
-          </div>
         </div>
       </section>
       <!-- End Services Section  -->
+
       <!-- Start Skills Section  -->
-      <section id="skills"><div class="title">
-        <h2>My <span>Skills</span></h2>
-      </div>
+      <section id="skills">
+          <div class="container">
+            <div class="title">
+                <h2>My <span>Skills</span></h2>
+            </div>
+            <div class="skills__all">
+                <div class="skills__details">
+                    <p>I have a combination of graphic design skills and technical 
+                        computer skills that will allow me to create particular designs on web pages. 
+                        In addition to looking nice, websites need to be functional and secure. 
+                        I create such sites that meet the 
+                        requirements of employers or clients. I often are implementing 
+                        ideas that others may have even those others lack the technical know-how to 
+                        turn those ideas into an actual, functional website.
+                    </p>
+                </div>
+                <div class="skills__progress">
+                    <div class="skills__icon">
+                        <img src="images/726104.svg" alt="photoshop" width="50" height="50">
+                        <h3>Photoshop</h3>
+                        <progress value="60" max="100"></progress>
+                    </div>
+                    <div class="skills__icon">
+                        <img src="images/406-4062993_new-career-option-ui-ux-designer-ui-ux.png" alt="ui/ux" width="50" height="50">
+                        <h3>UI/UX</h3>
+                        <progress value="90" max="100"></progress>
+                    </div>
+                    <div class="skills__icon">
+                        <img src="images/520-5208614_curso-programacin-front-end-completo-transparent-html-css.png" alt="front-end" width="50" height="50">
+                        <h3>Front-End</h3>
+                        <progress value="90" max="100"></progress>
+                    </div>
+                    <div class="skills__icon">
+                        <img src="images/php_mysql.png" alt="php/mysql" width="50" height="50">
+                        <h3>PHP/MYSQL</h3>
+                        <progress value="70" max="100"></progress>
+                    </div>
+                </div>
+            </div>
+          </div>
       </section>
       <!-- End Skills Section  -->
       <!-- Start Contact Section  -->
       <section id="contact">
-        <div class="title">
-          <h2><span>Contact</span> Me</h2>
-        </div>
+          <div class="container">
+            <div class="title">
+                <h2><span>Contact</span> Me</h2>
+              </div>
+              <div class="contact__details">
+                  <div class="contact__left">
+                      <h3>I'm always happy to help</h3>
+                      <p>Git in touch for a quote ro to find out more about my services.</p>
+                  </div>
+                  <div class="contact__social">
+                      <h3>Follow me</h3>
+                      <i class="fab fa-facebook-f"></i>
+                      <i class="fab fa-instagram"></i>
+                      <i class="fab fa-pinterest-p"></i>
+                      <i class="fab fa-github"></i>
+                  </div>
+              </div>
+          </div>
       </section>
       <!-- End Contact Section  -->
     </main>
@@ -112,7 +169,9 @@
 
     <!-- Start Footer  -->
     <footer>
-      <p>Copyright &copy;Rehab 2016, All Rights Reserved</p>
+        <div class="container">
+            <p>Copyright &copy;Rehab 2016, All Rights Reserved</p>
+        </div>
     </footer>
     <!-- End Footer -->
   </body>
